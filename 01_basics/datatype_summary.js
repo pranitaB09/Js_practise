@@ -12,7 +12,7 @@ let userEmail;//undefined
 //here symbol makes every one unique.
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.log(id === anotherId);//here is false and it a proof.
+//console.log(id === anotherId);//here is false and it a proof.
 
 //Bigint
 const bigNumber = 3455363846254729665789n //add n to last to represent bigint.
@@ -28,6 +28,14 @@ let myObj= {
     name:"hitesh",
     age:22,
 }
+
+//function 
+const myFunction = function(){
+    console.log("Hello world");
+}
+
+console.log(typeof bigNumber);
+
 
 
 
