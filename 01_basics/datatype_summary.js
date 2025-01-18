@@ -15,7 +15,7 @@ const anotherId = Symbol('123')
 //console.log(id === anotherId);//here is false and it a proof.
 
 //Bigint
-const bigNumber = 3455363846254729665789n //add n to last to represent bigint.
+const bigNumber = 345536384625472787878789665789n //add n to last to represent bigint.
 
 
 // 2) Non-primitive or reference datatype:
@@ -35,6 +35,40 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber);
+console.log(typeof score);
+console.log(typeof scoreValue);
+console.log(typeof isLoggedIn);
+console.log(typeof outsideTemp);
+console.log(typeof userEmail);
+console.log(typeof anotherId);
+console.log(typeof id);
+console.log(typeof bigNumber);
+console.log(typeof heros);
+console.log(typeof myObj);
+console.log(typeof myFunction);
+
+
+
+
+
+
+
+
+
+
+
+
+//typeof datatypes:
+// 1)Null => object
+// 2)undefined => undefined
+// 3)Boolean => boolean
+// 4) Number => number
+// 5) String => string
+// 6) function => function 
+// 7) class => class
+//*** Actually the datatype of all nonpremetive datatype are function but for function it is object_function.
+// function objects:
+//
 
 
 
