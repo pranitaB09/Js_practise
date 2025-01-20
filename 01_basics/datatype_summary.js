@@ -45,7 +45,7 @@ console.log(typeof id);
 console.log(typeof bigNumber);
 console.log(typeof heros);
 console.log(typeof myObj);
-console.log(typeof myFunction);
+console.log(typeof myFunction);//object function
 
 
 
@@ -65,10 +65,12 @@ console.log(typeof myFunction);
 // 4) Number => number
 // 5) String => string
 // 6) function => function 
+// 7) Array => object
+// 8) Object / class => object
 // 7) class => class
 //*** Actually the datatype of all nonpremetive datatype are function but for function it is object_function.
 // function objects:
-//
+
 
 
 
