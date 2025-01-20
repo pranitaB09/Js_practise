@@ -71,6 +71,14 @@ console.log(typeof myFunction);//object function
 //*** Actually the datatype of all nonpremetive datatype are function but for function it is object_function.
 // function objects:
 
+// *******************************Memory summary *********************************************************//
+//1) stack (Primitive) and heap (Non-Primitive) memory
+let myYouTubename = "hiteshchoudharydotcom"
+
+let anothername = myYouTubename
+console.log(anothername);
+
+
 
 
 
