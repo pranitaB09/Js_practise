@@ -76,7 +76,34 @@ console.log(typeof myFunction);//object function
 let myYouTubename = "hiteshchoudharydotcom"
 
 let anothername = myYouTubename
-console.log(anothername);
+//console.log(anothername);
+
+anothername="chaiaurcode"
+
+//console.log(myYouTubename);
+//console.log(anothername);
+//In stack the copy is made and changes are done in that copy.so value in myYouTubename is remains same.
+
+//lets see the memory management in heap
+let userOne = {
+    email : 'user@google.com',
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email="hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+
+
+
 
 
 
