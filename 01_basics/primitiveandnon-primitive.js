@@ -31,6 +31,18 @@ const item = {
 console.log(item["Harry"]);//true
 console.log(item["dsef"]);//undefined
 
+//Q.1.create a variable of type string and try to add a number to it
+let str1 = "hello"
+let num = 33
+console.log(str1 + num);
+console.log(typeof num);
+
+//Q.2.Find the typeof last string
+console.log(typeof str1+num);
+
+
+
+
 
 
 
