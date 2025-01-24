@@ -22,8 +22,19 @@ const anotherString = gameName.slice(-8 , 4)//here we can give he negative value
 //console.log(anotherString);
 
 const newStringOne = "    hitesh   "
-console.log(newStringOne);
-console.log(newStringOne.trim());//to remove starting and ending spaces from string
+//console.log(newStringOne);
+//console.log(newStringOne.trim());//to remove starting and ending spaces from string
+
+//Replace
+const url = "https://hitesh.com/hitesh%20choudhary"
+//console.log(url);
+//console.log(url.replace('%20','-'))
+
+//console.log(url.includes('hitesh'))//true
+//console.log(url.includes('sundar'))//false
+
+//console.log(gameName.split('-'));//splitted into an array on the basis of given seperator.
+
 
 
 
