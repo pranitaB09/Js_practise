@@ -16,6 +16,7 @@ const all_new_heros =[...marvel_heros,...dc_heros]//... seperates the elements o
 
 const another_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
 
+//spread out all the elements in array
 const real_another_array = another_array.flat(Infinity)// you have to give depth.but if you dont know then give infinity.flat() combines all the subarray elements in a new single array.
 console.log(real_another_array);/*[
     1, 2, 3, 4, 5,
@@ -24,3 +25,4 @@ console.log(real_another_array);/*[
   ]
 */
 
+console.log(Array.isArray("Hitesh"));
