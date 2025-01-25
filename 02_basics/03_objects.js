@@ -22,22 +22,23 @@ const JsUser = {
     lastLoginDays:["Monday","Saturday"]
 }
 
-console.log(JsUser.email);
-console.log(JsUser["email"]);
+//console.log(JsUser.email);//normal method to access the object property 
+//console.log(JsUser["email"]);//special/another mwthod to access
 
 //console.log(JsUser."full name");//Not allowed to access using ".operator" here.
-console.log(JsUser["full name"]);//You have to use this method only
+//console.log(JsUser["full name"]);//You have to use this method only
 
 //For the Wrong declaration=>  console.log(JsUser.mySym);//mykey1 is printed.But datatype is not symbol it is string.
 // console.log(typeof JsUser.mySym);//string
 
-console.log(JsUser[mySym]);
+//console.log(JsUser[mySym]);
 // ?????console.log(typeof JsUser["mySym"]);??????????????????
 
 JsUser.email = "hitesh@chatgpt.com"//changing the value in an obj.
-Object.freeze(JsUser)//Freeze/lock
+//Object.freeze(JsUser)//Freeze/lock
 JsUser.email = "hitesh@microsoft.com"//not propogates the value as we freezed the object.
-console.log(JsUser);/**
+//console.log(JsUser);
+ /**
 {
   name: 'Hitesh',
   'full name': 'Hitesh Choudhary',
@@ -49,9 +50,22 @@ console.log(JsUser);/**
   [Symbol(key1)]: 'mykey1'
 }
  */
+
+// FUNCTION =>
 JsUser.greeting = function(){
-    console.log("Hello js user");
-    
+    console.log("Hello Js user");
 }
+
+//console.log(JsUser.greeting); // [Function (anonymous)].Function returned back.Function ka reference aaya hai.
+
+console.log(JsUser.greeting());//Hello Js user
+//undefined
+
+JsUser.greetingTwo = function(){
+  console.log(`Hello Js user,${this.name}`);//if you want to reference same object then you can use this 
+}
+
+console.log(JsUser.greetingTwo());
+
 
 
