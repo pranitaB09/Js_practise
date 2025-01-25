@@ -25,4 +25,16 @@ console.log(real_another_array);/*[
   ]
 */
 
-console.log(Array.isArray("Hitesh"));
+console.log(Array.isArray("Hitesh"));//false
+console.log(Array.isArray([]));//is it array then returns true.true
+console.log(Array.from("Hitesh"));//from makes array.converts it into array.//[ 'H', 'i', 't', 'e', 's', 'h' ]
+console.log(Array.from({name:"hitesh"})); // interesting. If you dont tell clearly then returns empty array.
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1,score2,score3));//[ 100, 200, 300 ]. .of:Retuns a new array from set of elements(variables,arrays)
+
+
+
