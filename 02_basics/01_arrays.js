@@ -24,7 +24,7 @@ const myArr2 = new Array(1,2,3,4)
 //console.log(myArr); // [ 0, 1, 2, 3, 4, 5, 'hitesh', 6 ]
 
 myArr.unshift(9)//unshift add the element at first position in an array
-console.log(myArr);//[ 9, 0, 1, 2, 3, 4, 5, 'hitesh' ]
+//console.log(myArr);//[ 9, 0, 1, 2, 3, 4, 5, 'hitesh' ]
 
 myArr.shift()//shift removes the first element from your array and here first element is 9
 //console.log(myArr);
@@ -34,8 +34,29 @@ myArr.shift()//shift removes the first element from your array and here first el
 
 const newArr = myArr.join()//join() adds all the elements of an array into a string.
 
-console.log(myArr);//[ 0, 1, 2, 3, 4, 5, 'hitesh' ]
-console.log(newArr);//0,1,2,3,4,5,hitesh
+//console.log(myArr);//[ 0, 1, 2, 3, 4, 5, 'hitesh' ]
+//console.log(newArr);//0,1,2,3,4,5,hitesh
+//console.log(typeof newArr);
+
+//Slice splice
+
+//console.log("A ", myArr);//A  [ 0, 1, 2, 3, 4, 5, 'hitesh' ]
+
+const myn1 = myArr.slice(1,3);//include 1,2 but not three.it excludes range not changes original array
+//console.log(myn1);//[ 1, 2 ]
+//console.log("B ",myArr);// B  [ 0, 1, 2, 3, 4, 5, 'hitesh' ]
+
+const myn2 = myArr.splice(1,3);//splice includes range and changes original array
+//console.log(myn2);//[ 1, 2, 3 ]
+//console.log("C ",myArr);//C  [ 0, 4, 5, 'hitesh' ]
+
+
+
+
+
+
+
+
 
 
 
