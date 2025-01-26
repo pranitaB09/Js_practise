@@ -43,6 +43,33 @@ const obj2 = {3:"a",4:"b"}
 //const obj3 = Object.assign({},obj1,obj2)//{} is a optional parameter.but giving it is a good practise.all the values are combined and only one result is returned is said.
 
 //...spread operator
-// 3] const obj3 ={...obj1, ...obj2} 
-console.log(obj3);//{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
+ //3]
+const obj3 ={...obj1, ...obj2} 
+//console.log(obj3);//{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
+
+const users = [
+    {
+        id:1,
+        email:"h@gmail.com"
+    },
+    {
+        id:2,
+        email:"g@gmail.com"
+    },
+    {
+        id:3,
+        email:"m@gmail.com"
+    },
+]
+console.log(users[0].email);//h@gmail.com
+
+console.log(tinderUser);
+console.log(Object.keys(tinderUser));//All keys of tinderUser.datatype is array.//o/p:[ 'id', 'name', 'isLoggedIn' ]
+console.log(Object.values(tinderUser));//[ '123abc', 'Sammy', 'false' ]
+console.log(Object.entries(tinderUser));//[ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', 'false' ] ].every key-value pair is put inside a array
+
+//sometimes you have to ask that this property in the object
+console.log(tinderUser.hasOwnProperty("isLoggedIn"));//true 
+console.log(tinderUser.hasOwnProperty("isLogged"));//false 
+
 
