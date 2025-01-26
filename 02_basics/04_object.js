@@ -72,4 +72,23 @@ console.log(Object.entries(tinderUser));//[ [ 'id', '123abc' ], [ 'name', 'Sammy
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));//true 
 console.log(tinderUser.hasOwnProperty("isLogged"));//false 
 
+//Destructuring of object
+const course   = {
+    courseName: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
 
+//course.courseInstructor.//way to access value
+
+//const {courseInstructor} = course
+//1st => console.log(courseInstructor);// hitesh
+
+//2nd =>  const {courseInstructor:instructor} = course  //****object destructure******/
+console.log(instructor); // hitesh
+
+const navbar = (props.company) => {
+
+
+}
+navbar(company = "hitesh")
