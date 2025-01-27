@@ -87,8 +87,34 @@ const course   = {
 //2nd =>  const {courseInstructor:instructor} = course  //****object destructure******/
 console.log(instructor); // hitesh
 
-const navbar = (props.company) => {
+//code used in React => destructuring of an object.
+/**-old method:
+ *  const navbar = (props.company) => {
 
+ }
+navbar(company = "hitesh")*/
 
-}
+/**-using destructuring:
+ * const navbar = ({company}) => {
+
+ }
 navbar(company = "hitesh")
+ */
+ 
+// API : Menu card is like api documentation.
+//aapke pas kuch values aati hai backend se,un valuesko aap kaise likhte hai.pehle values aati thi xml ke structure mai aur woh bahot complex hota tha.
+//right now values com in JSON format.
+
+//***api in JSON ****/
+// {
+//     "name":"hitesh",
+//     "coursename":"is in hindi",
+//     "price":"free"
+// }
+
+//*** another way api is in array format ***/
+[
+    {},
+    {},
+    {}
+]
