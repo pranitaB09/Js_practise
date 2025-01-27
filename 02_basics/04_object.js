@@ -105,7 +105,7 @@ navbar(company = "hitesh")
 //aapke pas kuch values aati hai backend se,un valuesko aap kaise likhte hai.pehle values aati thi xml ke structure mai aur woh bahot complex hota tha.
 //right now values com in JSON format.
 
-//***api in JSON ****/
+//***api in JSON-Js object notation ****/
 // {
 //     "name":"hitesh",
 //     "coursename":"is in hindi",
