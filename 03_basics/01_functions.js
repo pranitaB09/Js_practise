@@ -14,8 +14,27 @@ console.log("H");
 
 //sayMyName()
 
-function addTwoNumbers(number1,number1){
-console.log(number1 + number2 );
-}
+// function addTwoNumbers(number1,number2){
+// console.log(number1 + number2 );
+// }
 
-addTwoNumbers()
+//addTwoNumbers() //NaN
+//addTwoNumbers(3, 4);//7
+//addTwoNumbers(3,"4")//34
+//addTwoNumbers(3,"a")//3a
+//addTwoNumbers(3,null)//3
+
+/*****PARAMETERS:sunction definition , ARGUMRNTS:function calling*******/
+
+// const result = addTwoNumbers(3,5)
+// console.log("Result: ",result);//Result:  undefined.because function will not return any value.
+
+function addTwoNumbers(number1,number2){
+    let result = number1 + number2;
+    return result
+    console.log("hitesh");//never executed
+    
+    }
+    
+const result = addTwoNumbers(3,5)
+console.log("Result: ",result);//Result:  8
