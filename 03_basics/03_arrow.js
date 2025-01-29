@@ -53,8 +53,13 @@ const chai = () => {
 
 /////     OR      ///////
 
-const addTwo = (num1, num2) =>  (num1 + num2) //no need to write return keyword,when parenthesis used.But for curly braces return should be used(explicitly)
+//const addTwo = (num1, num2) =>  (num1 + num2) //no need to write return keyword,when parenthesis used.But for curly braces return should be used(explicitly)
 
-console.log(addTwo(10,4))//14
+//console.log(addTwo(10,4))//14
 
+//const addTwo = (num1, num2) =>  {username: "hitesh"}
+//console.log(addTwo(10,4)) //undefined.Because this is not the way through which object is called.to return the object you have to wrap it in parenthesis.
     
+const addTwo = (num1, num2) =>  ({username: "hitesh"})
+console.log(addTwo(10,4)) // { username: 'hitesh' }
+
