@@ -50,5 +50,5 @@ console.log(val1);
 
 const iceTeaPrice = 100
 
-iceT
+iceTeaPrice <= 80 ? console.log("Less than 80") : console.log("more than 80")
 
