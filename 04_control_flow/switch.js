@@ -14,6 +14,8 @@ const month = 3
 
 // shift + alt + down arrow => for duplicate.
 
+//If case matched then all the code executed except default when break is not written in code.
+
 switch(month){
     case 1:
         console.log("jan");
@@ -23,10 +25,10 @@ switch(month){
         break;
     case 3:
         console.log("mar");
-        break;
+        //break;
     case 4:
         console.log("april");
-        break;
+        //break;
     
     default:
         console.log("default case match");
